@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    
+    <div class="simple">
+        <h1>Simple Calculator</h1>
+    </div>
+    <center>
+    <form name="calculator">
+        
+        <div class="btn">
+       
+            <div class="cal">
+            <input type="text" name="display" id="display" readonly><br>
+        </div><br>
+<div class="btn2">
+    <div class="one">
+        <input type="button" class="btn1"id="tbbutton" value="7" onclick="calculator.display.value += '7'">
+        <input type="button" class="btn1" id="tbbutton" value="8" onclick="calculator.display.value += '8'"> 
+        <input type="button" class="btn1 a" id="tbbutton" value="9" onclick="calculator.display.value += '9'">
+        <input type="button" class="btn1" id="tbbutton" value="+" onclick="calculator.display.value += '+'">
+        <br></div>
+        <div class="one">
+        <input type="button" class="btn1" id="tbbutton" value="4" onclick="calculator.display.value += '4'">
+        <input type="button" class="btn1" id="tbbutton" value="5" onclick="calculator.display.value += '5'">
+        <input type="button" class="btn1 a" id="tbbutton" value="6" onclick="calculator.display.value += '6'">
+        <input type="button" class="btn1" id="tbbutton" value="-" onclick="calculator.display.value += '-'">
+        <br></div>
+        <div class="one">
+        <input type="button" class="btn1" id="tbbutton" value="1" onclick="calculator.display.value += '1'">
+        <input type="button" class="btn1" id="tbbutton" value="2" onclick="calculator.display.value += '2'">
+        <input type="button" class="btn1 a" id="tbbutton" value="3" onclick="calculator.display.value += '3'">
+        <input type="button" class="btn1" id="tbbutton" value="*" onclick="calculator.display.value += '*'">
+        <br></div>
+        <input type="reset" class="btn1" id="tbbutton" value="C"  onclick="calculator.display.value += 'C'">
+        <input type="button" class="btn1" id="tbbutton" value="0" onclick="calculator.display.value += '0'">
+        <input type="button" class="btn1" id="tbbutton" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+        <input type="button" class="btn1" id="tbbutton" value="/" onclick="calculator.display.value += '/'">
+    </div>
+    </div>
+</form>
+</center>
+
+
+</body>
+</html>

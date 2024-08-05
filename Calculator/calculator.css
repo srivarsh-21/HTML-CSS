@@ -1,0 +1,59 @@
+.btn input{
+width:80px;
+height:50px;
+font-size: medium;
+}
+
+.cal input{
+width:330px;
+border-color: rgb(255, 247, 240);
+text-align: right;
+font-size:25px;
+}
+
+.btn2 input{
+    background-color:azure;
+border-color: antiquewhite;
+border-radius: 50%;
+
+}
+
+.btn1.a{
+background-color: rgb(192, 255, 255);
+}
+
+
+ .btn1:active{
+    background-color: rgb(0, 255, 234);
+ }
+
+ form{
+padding:30px;
+font-size: 30px;
+background-color: #ddd;
+outline-style: outset;
+outline-color: whitesmoke;
+max-width:350px;
+border-radius: 35px;
+
+
+ }
+
+ .simple h1{
+text-align: center;
+
+ }
+
+ body{
+    font-family: Tahoma;
+    margin-top: 230px;
+ }
+ 
+ .btn{
+    align-items: center;
+ }
+ .one{
+    height:60px;
+ }
+
+ 
