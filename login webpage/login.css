@@ -1,0 +1,54 @@
+
+.one{
+width:350px;
+box-sizing: border-box;
+border:2px solid  rgba(255,255,255,.2);
+text-align: center;
+margin-left: 590px;
+margin-top: 200px;
+margin-bottom: 250px;
+background: transparent;
+backdrop-filter: blur(2px);
+border-radius: 10px;
+padding: 20px;
+font-family: "Poppins",sans-serif;
+cursor: pointer;
+
+}
+h1{
+color: white;
+
+}
+
+.three , .four{
+width:290px;
+height:30px;
+border-radius: 20px;
+background: transparent;
+border:2px  solid rgba(255,255,255,.2);
+text-indent: 15px;
+
+
+}
+
+.three::placeholder{
+    color:#fff;
+}
+
+.four::placeholder{
+
+    color: #fff;
+}
+
+ .five a{
+color: #fff;
+
+ }
+
+ .six a,p{
+ color:#fff;
+
+
+ }
+
+ 
